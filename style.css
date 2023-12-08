@@ -1,13 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+.backgroung-header {
+    padding: 1em 3em 3em 3em;
+    background-color: #0222CF;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
     width: 300px;
     height: 100px;
+    display: flex;
 }
 
+.links-header {
+    display: flex;
+   
+}
 .links-header>* {
     display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 2em;
+    color: white;
+    font-size: 20px;
+}
+
+.subheader {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 2em 0;
+    gap: 2em
+}
+
+.imagen-ciclista {
+    width: 300px;
+    height: 300px;
+}
+
+.subheader-left {
+    color: #fff;
+}
+
+.subheader-left>h1 {
+    font-size: 48px;
+}
+
+.subheader-left>p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.subheader-left>button {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10%;
+}
+
+.modalidades-ciclismo {
+    display: flex;
+    flex-wrap: wrap;
 }
