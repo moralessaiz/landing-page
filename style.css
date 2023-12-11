@@ -5,8 +5,8 @@ body {
 }
 
 .backgroung-header {
-    padding: 1em 3em 3em 3em;
     background-color: #0222CF;
+    padding: 1em 5em 1em 5em;
 }
 
 .header {
@@ -36,7 +36,7 @@ body {
 
 .subheader {
     display: flex;
-    flex: 1;
+    justify-content: space-between;
     align-items: center;
     margin: 2em 0;
     gap: 2em
@@ -69,7 +69,30 @@ body {
     border-radius: 10%;
 }
 
+.container-medium {
+    padding: 2% 20%;
+}
+
+.container-medium>h2{
+    text-align: center;
+}
+
 .modalidades-ciclismo {
     display: flex;
     flex-wrap: wrap;
+    gap: 3em;
+}
+
+.modalidad {
+    flex: 1;
+}
+
+.cuadro {
+    border:#3882F6 3px solid;
+    height: 8rem;
+    border-radius: 10px;
+}
+
+.modalidad>p {
+    text-align: center;
 }
