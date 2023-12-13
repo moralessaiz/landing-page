@@ -6,7 +6,7 @@ body {
 
 .backgroung-header {
     background-color: #0222CF;
-    padding: 1em 5em 1em 5em;
+    padding: 2% 15%;
 }
 
 .header {
@@ -89,10 +89,74 @@ body {
 
 .cuadro {
     border:#3882F6 3px solid;
-    height: 8rem;
+    height: 12rem;
     border-radius: 10px;
 }
 
 .modalidad>p {
     text-align: center;
+}
+
+.container-low {
+    background-color: #E5E7EB;
+    padding: 2% 20%;
+}
+
+.text-container-low {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.frase-low {
+    font-weight: 700;
+    text-align: end;
+    font-size: 16px;
+}
+
+.container-blue {
+    padding: 5% 10%;
+    color: #E5E7EB;
+}
+
+.interior {
+    padding: 5% 10%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.interior-left>h2{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.interior-left>p{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.interior-right>button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10%;
+    border: 1px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #0222CF;
+    padding: 1% 10%;
+}
+
+.copyright {
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 14px;
 }
